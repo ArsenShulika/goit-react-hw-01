@@ -1,0 +1,38 @@
+.container {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0px auto;
+    list-style: none;
+    width: 75px;
+    text-align: center;
+    padding: 10px;
+}
+
+.img {
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.descr {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.status {
+    font-size: 12px;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
+
+p:last-child {
+    margin: 0;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,17 @@
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    padding: 0px;
+}
+
+li:first-child {
+    border-right: none;
+}
+
+li:last-child {
+    border-left: none;
+}
